@@ -44,44 +44,12 @@ function numIntoUnits() {
         // console.log(arr.slice(0, -1))
         result = arr.slice(0, -1)
         result.forEach((el, i) => {
-            // $('#unit').val(el)
              $("#unit").append(`
                 <tr>
                     <th scope="row" class="table-bordered" id="unit-${i}">${el}</th>
                 </tr>
             `)
-            // console.log(el, i);
         });
-        // console.log(result)
         return result;
     }
-    
-
-
-   
-   
-
-    // $.ajax({
-    //     url: baseUrl,
-    //     // method: "POST",
-    //     data: {
-            
-    //     }
-    // })
-    // .done((response) => {
-    //     // console.log(response)
-    // })
-    
-//     let arr = [];
-//     let i = 10;
-
-//     while (n > i / 10)
-//     {
-//         arr.unshift(n % i - n % (i / 10));
-//         i *= 10;
-//     }
-
-//     return arr;
 }
-
-// console.log(numIntoUnits(156273938))
