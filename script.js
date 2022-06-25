@@ -5,7 +5,7 @@ $(document).ready(() => {
    $('#btn-generate').on('click', (e) => {
         e.preventDefault();
         numIntoUnits()
-        $('#num-input').val('');
+        // $('#num-input').val('');
         $('#unit').val()
     });
     
@@ -13,6 +13,8 @@ $(document).ready(() => {
         e.preventDefault();
         $('#div-error').hide()
         $("#unit").empty()
+        $('#num-input').val('');
+
     })
         
 });
