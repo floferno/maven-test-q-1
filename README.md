@@ -1,3 +1,3 @@
 ### How to run 
 
-> npm live-server --localhost:55000
+> npm live-server --localhost:5500
