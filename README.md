@@ -1,6 +1,6 @@
 ### How to run 
 
-> npm live-server --localhost:5500
+> live-server --localhost:5500
 
 ### Results
 * Result when user inputs nothing
